@@ -1,0 +1,78 @@
+html {
+    background: rgb(40, 40, 40);
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#clienteList {
+    background-color: rgb(69, 69, 69);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button#deleteButton {
+    background-color: #f44336;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#fotoPerfil {
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#fotoLabel {
+    margin-top: 10px;
+}
+
+#textoPerfil {
+    align-items: center;
+    margin-right: 1%;
+}
